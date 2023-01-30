@@ -93,6 +93,7 @@ section.row div:nth-child(1)
   animation: animate2 80s linear infinite;
   animation-delay: -40s;
 }
+/*
 @keyframes animate1
 {
   0%
