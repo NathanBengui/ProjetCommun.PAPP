@@ -67,7 +67,7 @@ nav .start-portefolio, a:nth-child(4):hover~.animation {
 nav .start-contact, a:nth-child(5):hover~.animation {
   width: 190px;
   left: 680px;
-  background-color: rgb(152, 206, 251);
+  background-color: #2BD6B4;
 }
 
 body {
