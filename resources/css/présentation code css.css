@@ -1,6 +1,6 @@
 nav {
     margin: 27px auto 0;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
   
     position: relative;
     width: 870px;
@@ -8,6 +8,7 @@ nav {
     background-color:  #34495e;;
     border-radius: 8px;
     font-size: 0;
+    
   }
   nav a {
     line-height: 50px;
@@ -90,7 +91,7 @@ nav {
   
   p {
       position: absolute;
-      bottom: 80px;
+      bottom: 130px;
       right: 45px;
       width: 40%;
       text-align: center;
