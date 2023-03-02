@@ -19,7 +19,7 @@
   </nav>
   </div>
 
-  <h1 style="color: whitesmoke; display: flex;justify-content: center; align-items: center;margin-top: 4%;  margin-left: 500px;margin-right: 500px; font-size: 1.3em;">
+  <h1 style="color: whitesmoke; display: flex;justify-content: center; align-items: center;margin-top: 4%;  margin-left: 500px;margin-right: 500px; font-size: 1.8em;">
     Avancée des informaticiens : Les informaticiens ont fait plusieurs groupes. Chaque groupe ont eu une tache différente comme les applications et console ou la documentation et le site web ou vous êtes actuellement et le driver. Voici quelques images durant le projet.
     </h1>
   
@@ -27,43 +27,43 @@
   
     <div class="mySlides fade">
       <div class="numbertext">1 / 7</div>
-      <img src="INF1.jpg" style="width:100%">
+      <img src="../../resources/images/INF1.jpg" style="width:100%">
       
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">2 / 7</div>
-      <img src="INF2.jpg" style="width:100%" height="100%">
+      <img src="../../resources/images/INF2.jpg" style="width:100%" height="100%">
       <div class="text"></div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">3 / 7</div>
-      <img src="INF3.jpg" style="width:100%">
+      <img src="../../resources/images/inf3.jpg" style="width:100%">
       <div class="text"></div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">4 / 7</div>
-      <img src="INF4.jpg" style="width:100%">
+      <img src="../../resources/images/INF4.jpg" style="width:100%">
       <div class="text"></div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">5 / 7</div>
-      <img src="INF5.jpg" style="width:100%">
+      <img src="../../resources/images/INF5.jpg" style="width:100%">
       <div class="text"></div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">6 / 7</div>
-      <img src="INF6.jpg" style="width:100%">
+      <img src="../../resources/images/INF6.jpg" style="width:100%">
       <div class="text"></div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">7 / 7</div>
-      <img src="INF7.jpg" style="width:100%">
+      <img src="../../resources/images/INF7.jpg" style="width:100%">
       <div class="text"></div>
     </div>
     
@@ -121,21 +121,8 @@
 
 </body>
 
-  
-  
-
-
-
-
-
-
-
-
-
-
-
 <style>
-    * {box-sizing: border-box}
+  * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -225,6 +212,156 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+  margin: 27px auto 0;
+
+  position: relative;
+  width: 870px;
+  height: 50px;
+  background-color: #34495e;
+  border-radius: 8px;
+  font-size: 0;
+}
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1) {
+  width: 150px;
+}
+a:nth-child(2) {
+  width: 160px;
+}
+a:nth-child(3) {
+  width: 160px;
+}
+a:nth-child(4) {
+  width: 210px;
+}
+a:nth-child(5) {
+  width: 190px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+  width: 150px;
+  left: 0;
+  background-color: blue;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+  width: 160px;
+  left: 150px;
+  background-color: rgb(0, 140, 255);
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+  width: 160px;
+  left: 310px;
+  background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+  width: 210px;
+  left: 470px;
+  background-color: #00ccff;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+  width: 190px;
+  left: 680px;
+  background-color: #2BD6B4;
+}
+
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+  background: #2c3e50;
+}
+h1 {
+  text-align: center;
+  margin: 40px 0 40px;
+  text-align: center;
+  font-size: 30px;
+  color: #ecf0f1;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Cherry Swash', cursive;
+}
+
+p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+}
+
+span {
+    color: #2BD6B4;
+}
+
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   
+}
+
 </style>
+  
+
+
+
+
+
+
+
+
+
+
 </html>

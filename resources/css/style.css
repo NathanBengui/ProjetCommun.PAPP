@@ -29,7 +29,7 @@
 
   .overlay {
     position: absolute;
-  
+
     background-color: #008CBA;
     overflow: hidden;
     width: 100%;
@@ -60,23 +60,6 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   * {
     box-sizing: border-box;
   }
@@ -110,7 +93,7 @@
   }
   
   .lightbox .close-btn {
-    width: 80px;
+    width: 12px;
     align-self: flex-end;
     height: 40px;
     margin: 20px 0;
@@ -165,31 +148,6 @@
     width: 100%;
     opacity: 1;
   }
-  
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
 img {
   vertical-align: middle;
 }
@@ -276,70 +234,6 @@ img {
 .demo:hover {
   opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav {
   margin: 27px auto 0;
 
