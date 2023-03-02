@@ -48,9 +48,8 @@ nav .start-home, a:nth-child(1):hover~.animation {
   width: 150px;
   left: 0;
 
-
-
   background-color: blue;
+
 }
 nav .start-about, a:nth-child(2):hover~.animation {
   width: 160px;
@@ -106,7 +105,8 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-around;
+ 
 }
-.uj {
+.uj{
   position: absolute;
 }
