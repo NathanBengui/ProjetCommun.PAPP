@@ -4,16 +4,16 @@
         
           position: relative;
           width: 1050px;
-          height: 90px;
+          height: 60px;
           background-color: #34495e;
           border-radius: 8px;
           font-size: 0;
         }
         nav a {
 
-          line-height: 50px;
+          line-height: 20px;
           height: 100%;
-          font-size: 14px;
+          font-size: 15px;
           display: inline-block;
           position: relative;
           z-index: 1;
@@ -70,13 +70,13 @@
         nav .start-contact, a:nth-child(5):hover~.animation {
           width: 210px;
           left: 840px;
-          background-color: #00c2b2;
+          background-color: rgb(152, 206, 251);
         }
         a,.dropbtn {
             
             color: rgb(222, 224, 230);
             text-align: right;
-            padding: 49px 69px;
+            padding: 49px 49px;
             text-decoration: none;
         }
         .container {
@@ -113,7 +113,7 @@
               display: inline-block;
               color: white;
               text-align: center;
-              padding: 24px 16px;
+              padding: 20px 16px;
         }
         .im{
            position: absolute; 
