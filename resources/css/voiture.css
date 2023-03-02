@@ -47,11 +47,10 @@ a:nth-child(5) {
 nav .start-home, a:nth-child(1):hover~.animation {
   width: 150px;
   left: 0;
-<<<<<<< HEAD
-  background-color: rgb(0, 0, 255);
-=======
+
+
+
   background-color: blue;
->>>>>>> 1430fb00a23ddd445e50cab5e84af6b67753b129
 }
 nav .start-about, a:nth-child(2):hover~.animation {
   width: 160px;
@@ -71,11 +70,7 @@ nav .start-portefolio, a:nth-child(4):hover~.animation {
 nav .start-contact, a:nth-child(5):hover~.animation {
   width: 190px;
   left: 680px;
-<<<<<<< HEAD
-  background-color: rgb(152, 206, 251);
-=======
   background-color: #2BD6B4;
->>>>>>> 1430fb00a23ddd445e50cab5e84af6b67753b129
 }
 
 body {
@@ -111,13 +106,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-around;
-<<<<<<< HEAD
- 
-}
-.uj{
-=======
 }
 .uj {
->>>>>>> 1430fb00a23ddd445e50cab5e84af6b67753b129
   position: absolute;
 }
