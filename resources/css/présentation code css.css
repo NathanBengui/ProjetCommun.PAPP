@@ -1,3 +1,4 @@
+
 nav {
     margin: 27px auto 0;
    
@@ -61,7 +62,7 @@ nav {
     left: 310px;
     background-color: #3498db;
   }
-  nav .start-portefolio, a:nth-child(4):hover~.animation {
+  nav .start-portefolio, a:nth-child(4):hover~.animation { 
     width: 210px;
     left: 470px;
     background-color: #00ccff;
