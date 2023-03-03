@@ -1,12 +1,15 @@
+
 nav {
     margin: 27px auto 0;
+   
   
     position: relative;
     width: 870px;
     height: 50px;
-    background-color: #34495e;
+    background-color:  #34495e;;
     border-radius: 8px;
     font-size: 0;
+    
   }
   nav a {
     line-height: 50px;
@@ -59,7 +62,7 @@ nav {
     left: 310px;
     background-color: #3498db;
   }
-  nav .start-portefolio, a:nth-child(4):hover~.animation {
+  nav .start-portefolio, a:nth-child(4):hover~.animation { 
     width: 210px;
     left: 470px;
     background-color: #00ccff;
@@ -67,19 +70,15 @@ nav {
   nav .start-contact, a:nth-child(5):hover~.animation {
     width: 190px;
     left: 680px;
-    background-color: rgb(152, 206, 251);
-  }
-  
-  
-  ul {
-  
-   
+    background-color: #2BD6B4;
   }
   
   body {
     font-size: 12px;
     font-family: sans-serif;
-    background: #2c3e50;
+    background:  #232528;
+    
+   
   }
   h1 {
     text-align: center;
@@ -93,16 +92,15 @@ nav {
   
   p {
       position: absolute;
-      bottom: 20px;
-      width: 100%;
+      bottom: 15px;
+      right: 45px;
+      width: 40%;
       text-align: center;
       color: #ecf0f1;
       font-family: 'Cherry Swash',cursive;
-      font-size: 16px;
+      font-size: 19px;
   }
-  .ts{
-    font-family: 'Cherry Swash',cursive;
-  }
+  
   span {
       color: #2BD6B4;
   }
@@ -112,4 +110,7 @@ nav {
     align-items: center;
     justify-content: space-around;
    
+  }
+  .uj{
+    position: absolute;
   }
