@@ -1,9 +1,9 @@
         
 
 nav {
-  margin: 25px auto 0;
-  margin-top: 100px;
-
+  margin: 20px auto 0;
+  margin-top: 90px;
+margin-left: 490px;
   position: relative;
   width: 870px;
   height: 50px;
@@ -13,7 +13,7 @@ nav {
   
 }
 nav a {
-  line-height: 19px;
+  line-height: 13px;
  
   font-size: 15px;
   display: inline-block;
@@ -102,9 +102,7 @@ p {
     font-size: 19px;
 }
 
-span {
-    color: #2BD6B4;
-}
+
 
 .image{
   display: flex;
