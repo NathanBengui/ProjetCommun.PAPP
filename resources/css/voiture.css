@@ -44,27 +44,27 @@ a:nth-child(4) {
 a:nth-child(5) {
   width: 190px;
 }
-nav .start-home, a:nth-child(1):hover~.animation {
+nav .start-acceuil, a:nth-child(1):hover~.animation {
   width: 150px;
   left: 0;
   background-color: rgb(0, 0, 255);
 }
-nav .start-about, a:nth-child(2):hover~.animation {
+nav .start-presentation, a:nth-child(2):hover~.animation {
   width: 160px;
   left: 150px;
   background-color: rgb(0, 140, 255);
 }
-nav .start-blog, a:nth-child(3):hover~.animation {
+nav .start-notravancee, a:nth-child(3):hover~.animation {
   width: 160px;
   left: 310px;
   background-color: #3498db;
 }
-nav .start-portefolio, a:nth-child(4):hover~.animation {
+nav .start-visualitation, a:nth-child(4):hover~.animation {
   width: 210px;
   left: 470px;
   background-color: #00ccff;
 }
-nav .start-contact, a:nth-child(5):hover~.animation {
+nav .start-quisommenous, a:nth-child(5):hover~.animation {
   width: 190px;
   left: 680px;
   background-color: #2BD6B4;
@@ -107,7 +107,25 @@ span {
 }
 .uj{
   position: absolute;
+}  /* hide scrollbar but allow scrolling */
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
 }
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+/* other styling */
+* {
+  
+  font-size: 20px;
+  font-weight: s;
+}
+  
+
 
 
 
